@@ -15,8 +15,8 @@ A fault-tolerant Modbus RTU client-server environment designed to simulate data 
 - Tools: `socat` (for virtual serial port bridging on Linux)
 
 ##  How to Run
-1. # Setup Virtual Serial Ports:
-   # Example for Linux
+1. **Setup Virtual Serial Ports:**
+   **Example for Linux**
    bash
    socat -d -d PTY,link=/tmp/ttyS0,raw,echo=0 PTY,link=/tmp/ttyS1,raw,echo=0
 2. **Install Dependencies:**
